@@ -9,13 +9,14 @@ use Montadora\Motor\MotorTurbo;
 
 use Montadora\Volante\VolanteComum as Volante;
 
-require_once './Carro.php';
-require_once './Pickup.php';
-require_once './Motor.php';
-require_once './Motor1000.php';
-require_once './Motor1600.php';
-require_once './MotorTurbo.php';
-require_once './VolanteComum.php';
+//Com use não precisa usar o require.
+//require_once './Carro.php';
+//require_once './Pickup.php';
+//require_once './Motor.php';
+//require_once './Motor1000.php';
+//require_once './Motor1600.php';
+//require_once './MotorTurbo.php';
+//require_once './VolanteComum.php';
 
 $motor1 = new Montadora\Motor\Motor1000;
 $motor2 = new Motor1600();
