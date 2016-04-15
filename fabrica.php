@@ -52,3 +52,5 @@ if($mootor1 == $motor2)
 {
     echo "Sao diferentes";
 }
+?>
+</pre>
