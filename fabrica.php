@@ -33,7 +33,7 @@ $carro3 = clone $carro1;
 
 try
 {
-    $carro1->abastecer(20);
+    //$carro1->abastecer(20);
     $carro1->ligar();
     $carro1->acelerar(30);
 } 
